@@ -22,7 +22,7 @@ public class ScrollManager : MonoBehaviour {
             backgrounds[i].reset();
 
 			//UGLY HARD CODE that properly gets the backgrounds to collate
-			Vector3 offset = new Vector3((backgrounds.Length-i) *30 * scrollSpeed * scrollTime, 0.0f, 0.0f);
+			Vector3 offset = new Vector3((backgrounds.Length-i) *30 * -.04f * scrollTime, 0.0f, 0.0f);
             backgrounds[i].transform.position = backgrounds[i].transform.position + offset;
 			backgrounds[i].endMarker = backgrounds[i].transform.position + offset;
 			print (backgrounds [i].transform.position + offset);

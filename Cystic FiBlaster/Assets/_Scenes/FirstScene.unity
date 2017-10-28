@@ -268,7 +268,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fe627df1c4409bb45a88040fd0595313, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scrollSpeed: -0.04
+  scrollSpeed: -0.02
   startPosition: {fileID: 346833306}
   percentHorizontal: 1
   percentVertical: 0
@@ -578,7 +578,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fe627df1c4409bb45a88040fd0595313, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scrollSpeed: -0.04
+  scrollSpeed: -0.02
   startPosition: {fileID: 346833306}
   percentHorizontal: 1
   percentVertical: 0
@@ -915,7 +915,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fe627df1c4409bb45a88040fd0595313, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scrollSpeed: -0.04
+  scrollSpeed: -0.02
   startPosition: {fileID: 346833306}
   percentHorizontal: 1
   percentVertical: 0
@@ -1123,7 +1123,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fe627df1c4409bb45a88040fd0595313, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scrollSpeed: -0.04
+  scrollSpeed: -0.02
   startPosition: {fileID: 346833306}
   percentHorizontal: 1
   percentVertical: 0
