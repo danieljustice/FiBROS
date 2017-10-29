@@ -89,6 +89,7 @@ GameObject:
   - component: {fileID: 4414734553856544}
   - component: {fileID: 135790699711491798}
   - component: {fileID: 114050347412353860}
+  - component: {fileID: 114011257058508614}
   m_Layer: 0
   m_Name: Colliders
   m_TagString: Untagged
@@ -273,7 +274,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1739506839883660}
   m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
-  m_LocalPosition: {x: 0, y: 2.07, z: -1}
+  m_LocalPosition: {x: 10, y: 0, z: -1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4783665434340348}
@@ -791,6 +792,17 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1211468693215744}
   m_Mesh: {fileID: 4300018, guid: 739215511f495e443bbf6d2ce7485dec, type: 3}
+--- !u!114 &114011257058508614
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1393352055098336}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d05089139d17f9e4fa4be0ec4e93c8e9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &114050347412353860
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -803,6 +815,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   HP: 1
+  scoreValue: 10
 --- !u!114 &114717341617239900
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -814,7 +827,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fe627df1c4409bb45a88040fd0595313, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scrollSpeed: 1
+  scrollSpeed: -0.1
   startPosition: {fileID: 0}
   percentHorizontal: 1
   percentVertical: 0

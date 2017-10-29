@@ -257,6 +257,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4272505526361908}
   - component: {fileID: 65709685116104480}
+  - component: {fileID: 114807464286946090}
   m_Layer: 0
   m_Name: Colliders
   m_TagString: Untagged
@@ -643,7 +644,7 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1409215035132070}
-  m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
+  m_LocalRotation: {x: -0, y: 1, z: -0, w: 0}
   m_LocalPosition: {x: -4, y: -3.75, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -1536,3 +1537,14 @@ MonoBehaviour:
   percentHorizontal: 1
   percentVertical: 0
   endMarker: {x: 0, y: 0, z: 0}
+--- !u!114 &114807464286946090
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1584761134065716}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d05089139d17f9e4fa4be0ec4e93c8e9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
