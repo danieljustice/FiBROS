@@ -177,6 +177,8 @@ GameObject:
   m_Component:
   - component: {fileID: 58116726}
   - component: {fileID: 58116727}
+  - component: {fileID: 58116728}
+  - component: {fileID: 58116729}
   m_Layer: 0
   m_Name: Collider
   m_TagString: Player
@@ -207,8 +209,35 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.94, y: 0.24, z: 1}
+  m_Size: {x: 0.94, y: 0.24, z: 4.25}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &58116728
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 58116725}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f251028021e0aa546b85d3ea07d86ed0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  text: {fileID: 1781123536}
+--- !u!54 &58116729
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 58116725}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 126
+  m_CollisionDetection: 0
 --- !u!1001 &123005541
 Prefab:
   m_ObjectHideFlags: 0
@@ -299,15 +328,15 @@ Prefab:
       propertyPath: m_RootOrder
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 1173249332600816, guid: 7759c70377272e1479e734434118ca5e, type: 2}
-      propertyPath: m_Name
-      value: bacteria2 (1)
-      objectReference: {fileID: 0}
     - target: {fileID: 114946270336279716, guid: 7759c70377272e1479e734434118ca5e,
         type: 2}
       propertyPath: startPosition
       value: 
       objectReference: {fileID: 1498363763}
+    - target: {fileID: 1173249332600816, guid: 7759c70377272e1479e734434118ca5e, type: 2}
+      propertyPath: m_Name
+      value: bacteria2 (1)
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 7759c70377272e1479e734434118ca5e, type: 2}
   m_IsPrefabParent: 0
@@ -348,7 +377,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4575714867315038, guid: c8fb25a2389b99341a26ae09bdcf6bff, type: 2}
       propertyPath: m_RootOrder
-      value: 6
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 1409215035132070, guid: c8fb25a2389b99341a26ae09bdcf6bff, type: 2}
       propertyPath: m_Name
@@ -568,8 +597,8 @@ Transform:
   - {fileID: 224236436}
   - {fileID: 175525566}
   - {fileID: 281255036}
-  - {fileID: 886821852}
   - {fileID: 1784253758}
+  - {fileID: 886821852}
   m_Father: {fileID: 0}
   m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1390,7 +1419,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4129840893522386, guid: b78222b3aed4ab841849f803a6017990, type: 2}
       propertyPath: m_RootOrder
-      value: 7
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 1165646051881266, guid: b78222b3aed4ab841849f803a6017990, type: 2}
       propertyPath: m_Name
@@ -1835,6 +1864,7 @@ RectTransform:
   m_LocalScale: {x: 0.885, y: 0.885, z: 0.885}
   m_Children:
   - {fileID: 726303941}
+  - {fileID: 1781123535}
   m_Father: {fileID: 0}
   m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -3117,11 +3147,6 @@ Prefab:
       propertyPath: startPosition
       value: 
       objectReference: {fileID: 1179033798}
-    - target: {fileID: 114717341617239900, guid: 9f1644020de8b2a489feee2298500b10,
-        type: 2}
-      propertyPath: scrollSpeed
-      value: -0.1
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9f1644020de8b2a489feee2298500b10, type: 2}
   m_IsPrefabParent: 0
@@ -3167,6 +3192,80 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c8fb25a2389b99341a26ae09bdcf6bff, type: 2}
   m_IsPrefabParent: 0
+--- !u!1 &1781123534
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1781123535}
+  - component: {fileID: 1781123537}
+  - component: {fileID: 1781123536}
+  m_Layer: 5
+  m_Name: Health Text
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1781123535
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1781123534}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 360, y: 196.66666, z: 0}
+  m_LocalScale: {x: 1.0000001, y: 1.0000001, z: 1.0000001}
+  m_Children: []
+  m_Father: {fileID: 1170399932}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 1, y: 1}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: -40, y: -70}
+  m_SizeDelta: {x: 200, y: 30}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1781123536
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1781123534}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 708705254, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.10014623, g: 0.9117647, b: 0.03352074, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_FontData:
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_FontSize: 21
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 0
+    m_MaxSize: 50
+    m_Alignment: 0
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: 'HP: 10'
+--- !u!222 &1781123537
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1781123534}
 --- !u!4 &1784253758 stripped
 Transform:
   m_PrefabParentObject: {fileID: 4129840893522386, guid: b78222b3aed4ab841849f803a6017990,
