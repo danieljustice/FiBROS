@@ -9,7 +9,7 @@ public class PlayerHealth : MonoBehaviour {
     public Canvas restartCanvas;
     // Use this for initialization
     void Start () {
-		
+        playerHP = 10;
 	}
 	
 	// Update is called once per frame
