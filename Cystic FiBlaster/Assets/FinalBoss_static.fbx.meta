@@ -1,0 +1,248 @@
+fileFormatVersion: 2
+guid: 97c571f5d04b146399da43ef3aae5e85
+timeCreated: 1509269955
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: root
+    100004: root.005
+    100006: root.006
+    100008: root.006_MeshPart0
+    100010: root.006_MeshPart1
+    100012: root.010
+    100014: root.010_MeshPart0
+    100016: root.010_MeshPart1
+    100018: root.013
+    100020: root.014
+    100022: root.015
+    100024: root.016
+    100026: root.017
+    100028: root.018
+    100030: root.019
+    100032: root.020
+    100034: root.020_MeshPart0
+    100036: root.020_MeshPart1
+    100038: root.022
+    100040: root.024
+    400000: //RootNode
+    400002: root
+    400004: root.005
+    400006: root.006
+    400008: root.006_MeshPart0
+    400010: root.006_MeshPart1
+    400012: root.010
+    400014: root.010_MeshPart0
+    400016: root.010_MeshPart1
+    400018: root.013
+    400020: root.014
+    400022: root.015
+    400024: root.016
+    400026: root.017
+    400028: root.018
+    400030: root.019
+    400032: root.020
+    400034: root.020_MeshPart0
+    400036: root.020_MeshPart1
+    400038: root.022
+    400040: root.024
+    2300000: root
+    2300002: root.005
+    2300004: root.006_MeshPart0
+    2300006: root.006_MeshPart1
+    2300008: root.010_MeshPart0
+    2300010: root.010_MeshPart1
+    2300012: root.013
+    2300014: root.014
+    2300016: root.015
+    2300018: root.016
+    2300020: root.017
+    2300022: root.018
+    2300024: root.019
+    2300026: root.020_MeshPart0
+    2300028: root.020_MeshPart1
+    2300030: root.022
+    2300032: root.024
+    3300000: root
+    3300002: root.005
+    3300004: root.006_MeshPart0
+    3300006: root.006_MeshPart1
+    3300008: root.010_MeshPart0
+    3300010: root.010_MeshPart1
+    3300012: root.013
+    3300014: root.014
+    3300016: root.015
+    3300018: root.016
+    3300020: root.017
+    3300022: root.018
+    3300024: root.019
+    3300026: root.020_MeshPart0
+    3300028: root.020_MeshPart1
+    3300030: root.022
+    3300032: root.024
+    4300000: root.024
+    4300002: root.022
+    4300004: root.020_MeshPart0
+    4300006: root.020_MeshPart1
+    4300008: root.019
+    4300010: root.018
+    4300012: root.017
+    4300014: root.016
+    4300016: root.015
+    4300018: root.014
+    4300020: root.013
+    4300022: root.010_MeshPart0
+    4300024: root.010_MeshPart1
+    4300026: root.006_MeshPart0
+    4300028: root.006_MeshPart1
+    4300030: root.005
+    4300032: root
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material_527
+    second: {fileID: 2100000, guid: a8b1c4a3a6b47422abee6c03d63b3ef9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material_544
+    second: {fileID: 2100000, guid: 58990369d10e246428563704289a0e6e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material_566
+    second: {fileID: 2100000, guid: 0a3849df0712a41e9ae72c5707987a58, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material_569
+    second: {fileID: 2100000, guid: da5ec48c161c54165b150778a78f30be, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material_585
+    second: {fileID: 2100000, guid: 23d846af5d38d464187d8e6d404ca6f9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material_591
+    second: {fileID: 2100000, guid: 9dc7287ee742a4ad1a69623988e7d35d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material_618
+    second: {fileID: 2100000, guid: 4d1b9775d378c439a80c9c88a3376b73, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material_628
+    second: {fileID: 2100000, guid: 5f0877605cc014aabacaf9f9d5212b3b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material_636
+    second: {fileID: 2100000, guid: cf47c7e5aaddc4bfd9f663bd468b58fe, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material_638
+    second: {fileID: 2100000, guid: 4a7ef9913110d471f8dfe0b065a60cfb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material_640
+    second: {fileID: 2100000, guid: d18990518e11248cdb14d169d6e920f8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material_642
+    second: {fileID: 2100000, guid: 0e68d1433b6d34d4c9ffacf1f8133b19, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material_644
+    second: {fileID: 2100000, guid: a28ca211b90294032964b045d572ea89, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material_646
+    second: {fileID: 2100000, guid: 3c1f18c431e304a329beaf3d5ccf44a0, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
