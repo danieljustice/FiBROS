@@ -21,7 +21,10 @@ public class PlayerHealth : MonoBehaviour {
     {
         if (collision.gameObject.tag != "Projectile")
         {
-            Destroy(collision.gameObject);
+            if(collision.gameObject.tag != "Boss")
+            {
+                Destroy(collision.gameObject);
+            }
             playerHP--;
             CheckAlive();
         }
