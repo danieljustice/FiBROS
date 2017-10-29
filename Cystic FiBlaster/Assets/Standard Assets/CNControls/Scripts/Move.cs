@@ -29,7 +29,7 @@ public class Move : MonoBehaviour {
 		}
 
 		//movementVector += Physics.gravity;
-		print(movementVector);
+		//print(movementVector);
 		_characterController.Move(movementVector * Time.deltaTime * moveSpeed);
 		transform.rotation = Quaternion.LookRotation (-Vector3.forward);
 	}
