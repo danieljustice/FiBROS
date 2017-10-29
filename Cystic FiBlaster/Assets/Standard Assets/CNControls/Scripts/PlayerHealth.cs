@@ -6,6 +6,7 @@ using UnityEngine.UI;
 public class PlayerHealth : MonoBehaviour {
     public static int playerHP = 10;
     public Text text;
+    public Canvas restartCanvas;
     // Use this for initialization
     void Start () {
 		
@@ -31,6 +32,7 @@ public class PlayerHealth : MonoBehaviour {
         if (playerHP <= 0)
         {
             text.text = "HP: " + playerHP;
+            restartCanvas.enabled = true;
             Destroy(gameObject.transform.parent.gameObject);
         }
     }
