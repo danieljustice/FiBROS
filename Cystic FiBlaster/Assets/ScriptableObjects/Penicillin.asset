@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Name: Penicillin
   m_EditorClassIdentifier: 
   shotName: New Shot Type
-  shotSprite: {fileID: 0}
-  abilityBaseCoolDown: 1
-  projectileForce: 150
-  projectile: {fileID: 0}
+  abilityBaseCoolDown: 0.2
+  projectileForce: 500
+  projectile: {fileID: 54648699418584810, guid: 97663035f5385cb46bfe4782a909f8ee,
+    type: 2}
