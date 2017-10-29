@@ -5,6 +5,7 @@ using UnityEngine;
 public class TakeHits : MonoBehaviour {
 
     public int HP = 1;
+    public int scoreValue = 10;
 	// Use this for initialization
 	void Start () {
 		
@@ -29,6 +30,7 @@ public class TakeHits : MonoBehaviour {
     {
         if(HP <= 0)
         {
+            ScoreManager.score += scoreValue;
             Destroy(gameObject.transform.parent.gameObject); 
         }
     }

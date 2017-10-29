@@ -995,6 +995,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   HP: 3
+  scoreValue: 30
 --- !u!135 &135638634266104330
 SphereCollider:
   m_ObjectHideFlags: 1

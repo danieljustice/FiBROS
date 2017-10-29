@@ -17,10 +17,10 @@ public class DestroyOnEnter : MonoBehaviour {
 
     private void OnTriggerEnter(Collider other)
     {
-        print(other.tag);
+        //print(other.tag);
         if (other.tag == tag)
         {
-            print("DESTROY");
+           // print("DESTROY");
             Destroy(other.gameObject);
         }
     }
